@@ -1,7 +1,6 @@
 import vine from "@vinejs/vine";
 import { CustomeErrorReporter } from "./CustomeErrorReporter.js";
 
-
 vine.errorReporter=()=>new CustomeErrorReporter();
 
 export const registerSchema=vine.object({
